@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 1px solid red;
+    font-family: Helvetica;
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 80px;
+    background-image: url(AppAcademyWeek3-main/pineCityZooImages/images/wood-bg.png);
+}
+#header img{
+    display: block;
+    height: 80%;
+    /* width: 70%; */
+    padding-top: 15px;
+    margin: auto;
+}
+
+.nav{
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-btn{
+    font-weight: 700;
+    color: aliceblue;
+}
+
