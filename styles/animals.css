@@ -25,15 +25,13 @@ body{
     transition: .1s ease-in-out;
     aspect-ratio: 1;
     height: 55px;
-    margin: 6px;
+    margin: 6px 5px 6px 6px;
 }
 .animal-icon img{
     width: 100%;
     height: 100%;
 }
-.content *{
-    outline: 1px solid red;
-}
+
 .content{
     margin: 13px 0;
     width: 100%;
