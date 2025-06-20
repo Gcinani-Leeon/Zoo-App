@@ -1,0 +1,22 @@
+#main{
+    padding: 15px;
+}
+.animal{
+    width: 100%;
+    padding: 8px;
+    background-color: aliceblue;
+
+}
+.animal img{
+    width: 100%;
+}
+
+#animal-description h4{
+    outline: 1px solid red;
+    text-align: center;
+    padding: 20px 5px 15px 5px;
+}
+#animal-description > div > p + p {
+    margin-top: 1.5em;
+    background: red;
+}
