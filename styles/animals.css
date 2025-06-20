@@ -1,0 +1,67 @@
+#main *{
+    /* outline: 1px solid red; */
+}
+body{
+    background: url(/Zoo-App/AppAcademyWeek3-main/pineCityZooImages/images/map-blur.png);
+    }
+#main{
+    margin-top: 135px;
+    margin-bottom: 45px;
+}
+
+.animal{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background: rgba(255, 225, 255, 0.5);
+    margin: 9px 15px;
+    /* padding: 8px; */
+}
+.animal-icon{
+    aspect-ratio: 1;
+    height: 50px;
+    margin: 8px;
+}.animal-icon:hover{
+    transition: .1s ease-in-out;
+    aspect-ratio: 1;
+    height: 55px;
+    margin: 6px;
+}
+.animal-icon img{
+    width: 100%;
+    height: 100%;
+}
+.content *{
+    outline: 1px solid red;
+}
+.content{
+    margin: 13px 0;
+    width: 100%;
+}
+
+.title{
+    /* font-size: ; */
+    color: brown;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: fit-content;
+}.title:hover{
+    transition: .1s ease-in-out;
+    color: tomato;
+}
+.descr{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    width: fit-content;
+}
+
+.next-icon{
+    margin: auto 8px auto 0;
+    width: 25px;
+    height: 35px;
+}
+.next-icon img{
+    width: 100%;
+    height: 100%;
+}
