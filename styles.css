@@ -2,8 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    outline: 1px solid red;
     font-family: Helvetica;
+    text-decoration: none;
 }
 
 #header{
@@ -12,12 +12,12 @@
     left: 0;
     z-index: 500;
     width: 100%;
-    height: 80px;
+    height: 100px;
     background-image: url(AppAcademyWeek3-main/pineCityZooImages/images/wood-bg.png);
 }
 #header img{
     display: block;
-    height: 80%;
+    height: 70%;
     /* width: 70%; */
     padding-top: 15px;
     margin: auto;
@@ -28,9 +28,40 @@
     display: flex;
     justify-content: space-around;
 }
+#nav-top{
+    margin-top: 12px;
+}#nav-bot{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+}
 
 .nav-btn{
     font-weight: 700;
     color: aliceblue;
 }
+.nav-btn:hover{
+    transition: 0.3s ease-in;
+    /* transition:0.2s ease-out; */
+    background-color: yellowgreen;
+}
+.top-btn{
+    padding: 12px 0;
+    width: 33.3%;
+    text-align: center;
+}
+.bot-btn{
+    padding: 1.5%;
+    width: 50%;
+    text-align: center;
+
+}
+#main{
+    margin-top: 120px;
+}
+#main img{
+    width: 100%;
+} 
 
