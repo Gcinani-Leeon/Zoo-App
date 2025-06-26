@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title></title>
+
+        <style>
+
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <h3 onclick="innerHTML='ELEPHANTS'">My Example</h3>
+            <p id="x">
+                xxxx          
+            </p>
+
+            <input onclick="change()" type="button" value="Click Me">
+        </div>
+
+        <div>
+            <h2>Additions</h2>
+            <p id="c">
+                sum will be displayed here
+            </p>
+        </div>
+
+        <div>
+            <h2>Additions</h2>
+            <p id="c">
+                sum will be displayed here
+            </p>
+        </div>
+
+        <div>
+            <h2>Simple Log In</h2>
+            <p id="v">
+                <label for="username">Username: </label>
+                <input id="username" type="text" name="username">
+                <br/>
+                <label for="password">Password: </label>
+                <input id="password" type="password" name="password" id="">
+            </p>
+            <input onclick="auth(userN, userP)" type="button" value="LOGIN">
+        </div>
+
+        <script>
+            let par = "Elephants are large mammals of the family Elephanti dae and the Proboscidea. Two species are traditionally recognised, the African elephant (Loxodonta africana) and the Asian elephant(Elephas maximus). Elephants are scattered throughout sub-Saharan Africa, South Asia, and Southeast Asia. Male African elephants are the largest extant terrestrial animals and can reach a height of 4 m (13 ft) and weigh 7,000 kg (15,000 lb).";
+
+            function change(){
+                if(document.getElementById("x").innerHTML== par){
+                    document.getElementById("x").innerHTML= ('This is the Paragraph');
+                }
+                else {
+                    document.getElementById("x").innerHTML = (par);
+                }
+            }
+
+            /**/
+            document.getElementById("c").innerHTML = (add(5));
+            function add(x){
+                let sum = x;
+                return sum;
+            }
+
+            /**/
+            let username = "xxx";
+            let password = "yyy";
+            let log;
+
+            // auth(userN, userP)
+            function auth(userN, userP){
+                let inUserN = document.getElementById("username").value;
+                let inUserP = document.getElementById("password").value;
+
+                if(inUserN == username && inUserP == password){
+                    return console.log("succesful log in")
+                }
+                else if(inUserN == username && inUserP !== password){
+                    return console.log("incorect password")
+                }
+                else if(inUserN !== username && inUserP == password){
+                    return console.log("incorect username")
+                }
+                else{
+                    return console.log("unsuccessful log in")
+                }
+            }
+        </script>
+    </body>
+</html>
